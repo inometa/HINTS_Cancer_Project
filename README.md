@@ -12,6 +12,6 @@
 
 ## Research Goals
 ### Possible Questions and todos
--
--
+- Descriptive Stat.
+- Clean Data [Ikenna]
 -
