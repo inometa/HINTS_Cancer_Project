@@ -14,4 +14,4 @@
 ### Possible Questions and todos
 - Descriptive Stat.
 - Clean Data [Ikenna]
--
+- Finalize research question 
