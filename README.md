@@ -3,7 +3,6 @@
 
 ## <u> Team Members </u>
 - Priti Singh
-- Lisa LaManna
 - Pankaj Dholaniya
 - Ikenna Nometa
 - Gbocho Masato Terasaki
