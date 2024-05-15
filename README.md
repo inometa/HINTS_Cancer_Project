@@ -15,5 +15,5 @@
 - Descriptive Stat.
 - Clean Data [Ikenna]
 - Finalize research question
-- Features selection techniques to perform 1) Binary Classification 2) Multi-Class Classification (maybe choosing a particular cancer of interest)
+- Features selection techniques to perform 1) Binary Classification 2) Multi-Class Classification (maybe choosing a particular cancer of interest) [Pankaj]
 - Unsupervised learning techniques such as kmeans etc... [Masato]
