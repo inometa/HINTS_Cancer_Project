@@ -17,15 +17,13 @@ In this study we wish to use machine learning based classification models to stu
 We will be using survey data collected during the second cycle of HINTS 4 from October 2012 through January 2013. This includes responses collected from 3630 individuals living across mutliple regions of the US.The sampling frame of addresses, provided by Marketing Systems Group (MSG), was grouped into three strata: 1) addresses in areas with high concentrations of minority population; 2) addresses in areas with low concentrations of minority population; 3) addresses located in counties comprising Central Appalachia regardless of minority population. Foe more details about the project please visit-https://hints.cancer.gov.
 
 ## Problem description-Tentative 
-We wish to examine the realionship bewteen use of health information technology such as internet, tablet and cancer seeking behavior, and geograhical location on occurence of cancer.
+We wish to examine the realionship bewteen use of health information technology such as internet, tablets, cancer seeking behavior, and geograhical location on occurence of cancer.
 
 ## Potential Stakeholders
 Individuals suffering from cancer and thier families, as well as cancer free individuals. Results from the study can guide individuals suffering from cancer to better manage their health, as well as cancer free individuals to engage in their health management by the use of health information technology. The results will also guide physicians and others health care providers.
 
-## Key performane indicators 
-
-
-
+## Key performance indicators 
+Model performance will be evaluated through creating a confusion matrix and assessing the accuracy, sensitivity, specififity, and calculating the area under the receive operating characteristic curve at various thresholds.
 
 ## Action tools 
 ### Possible Questions and todos
