@@ -1,6 +1,4 @@
-# Cancer Hints Project
- This is a team project that uses machine learning algorithms to study a HINTS cancer data set.
-
+# Title- Explain the relationship between occurrence of cancer and other factors based on machine learning algorithms.  
 ## <u> Team Members </u>
 - Priti Singh
 - Pankaj Dholaniya
@@ -8,6 +6,11 @@
 - Gbocho Masato Terasaki
 
 # Background
+
+The Health Information National Trends Survey (HINTS) regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer- and health-related information. HINTS data are used to monitor changes in the rapidly evolving fields of health communication and health information technology and to create more effective health communication strategies across different populations.
+
+
+
 ## Problem description
 
 ## Research Goals
