@@ -25,7 +25,11 @@ Individuals suffering from cancer and thier families, as well as cancer free ind
 ## Key performance indicators 
 Model performance will be evaluated through creating a confusion matrix and assessing the accuracy, sensitivity, specififity, and calculating the area under the receive operating characteristic curve at various thresholds.
 
-## Action tools 
+## Date analysis 
+### Data cleaning
+
+
+## Action items 
 ### Possible Questions and todos
 - Descriptive Stat.
 - Clean Data [Ikenna]
