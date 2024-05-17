@@ -23,7 +23,7 @@ We wish to examine the realionship bewteen use of health information technology 
 Individuals suffering from cancer and thier families, as well as cancer free individuals. Results from the study can guide individuals suffering from cancer to better manage their health, as well as cancer free individuals to engage in their health management by the use of health information technology. The results will also guide physicians and others health care providers.
 
 ## Key performance indicators 
-Model performance will be evaluated through creating a confusion matrix and assessing the accuracy, sensitivity, specififity, and calculating the area under the receive operating characteristic curve at various thresholds.
+Model performance will be evaluated through creating a confusion matrix and assessing the accuracy, sensitivity, specificity, and calculating the area under the receive operating characteristic curve at various thresholds.
 
 ## Date analysis 
 ### Data cleaning
