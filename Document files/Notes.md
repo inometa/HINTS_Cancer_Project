@@ -27,5 +27,6 @@ Discussed our initial insights into data. Was difficult to work on as it is, so 
 - **Everyone**: Add possible questions to the GitHub.
 - **Everyone**: work on identifying important variables.
 - **Everyone**: Read the literatures Priti shared.
+- Try to meet our project mentor to establish initial communication and get suggestions for possible questions to work on.
 
 > **Next meeting**: _Monday, 5/20/2024 at 1pm Eastern time_.
