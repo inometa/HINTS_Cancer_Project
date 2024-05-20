@@ -17,9 +17,20 @@ In this study, we wish to use machine learning-based classification models to st
 We will use survey data collected during the second cycle of HINTS 4 from October 2012 through January 2013. This includes responses collected from 3630 individuals living across multiple regions of the US. The sampling frame of addresses, provided by Marketing Systems Group (MSG), was grouped into three strata: 1) addresses in areas with high concentrations of minority population; 2) addresses in areas with low concentrations of minority population; 3) addresses located in counties comprising Central Appalachia regardless of minority population. For more details about the project, please visit-https://hints.cancer.gov.
 
 ## Problem description-Tentative 
-We wish to investigate the relationship between cancer incidence and two key factors: 
-1. the utilization of health information technology, including the Internet and tablets, for cancer-related education and
-2. geographical location.
+1. We wish to investigate the relationship between cancer incidence and two key factors: 
+  - the utilization of health information technology, including the Internet and tablets, for cancer-related education and
+  - geographical location.
+2. How does exposure to cancer-related health information online influence health behaviors, such as diet and exercise
+3. How does access to health information technology impact the frequency of cancer screenings? Particularly, how does access to health information affect the frequency of breast cancer screening among patients aged 40 to 75?
+
+### What machine learning algorithms can help us answer the questions above?
+1.
+2.
+3.
+### What variables/features will be needed for each algorithm?
+1.
+2.
+3.
 
 ## Potential Stakeholders
 Individuals suffering from cancer and their families, as well as cancer-free individuals. Results from the study can guide individuals suffering from cancer to better manage their health, as well as cancer-free individuals to engage in their health management by the use of health information technology. The results will also guide physicians and other healthcare providers.
