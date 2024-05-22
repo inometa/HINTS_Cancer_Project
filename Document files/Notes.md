@@ -39,7 +39,7 @@ After describing the data we have and the Python explorations done, the meeting 
 - It was observed that most of our variables are categorical, and the ML methods we employ will have to be suited for categorical data
 - Non-categorical variables can be converted to a categorical variable with dummy variables
 - About looking for variables/features to focus on:
-> Try logistic regression with all variables and what will come out as the most predictive features.
+> - Try logistic regression with all variables and what will come out as the most predictive features.
 > If you have specific questions, just select the most relevant features  to help reduce the dimension 
 > Can we ask more questions, not focusing on cancer but figuring out what more will be outward?
 > How does the health care info tech data break down
