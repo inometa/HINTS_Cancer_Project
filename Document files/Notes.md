@@ -40,20 +40,20 @@ After describing the data we have and the Python explorations done, the meeting 
 - Non-categorical variables can be converted to a categorical variable with dummy variables
 - About looking for variables/features to focus on:
 > - Try logistic regression with all variables and what will come out as the most predictive features.
-> If you have specific questions, just select the most relevant features  to help reduce the dimension 
-> Can we ask more questions, not focusing on cancer but figuring out what more will be outward?
-> How does the health care info tech data break down
-> Maybe do feature selection / automatically select feature — forward …
-> Scikit-Learn has feature selection methods https://scikit-learn.org/stable/api/sklearn.feature_selection.html#module-sklearn.feature_selection
-> Recursive elimination: Do some dimension reduction 
-> Focus on narrowing down your questions and selecting variables 
-> What is balanced data, and when is it considered an issue?
+> - If you have specific questions, just select the most relevant features  to help reduce the dimension 
+> - Can we ask more questions, not focusing on cancer but figuring out what more will be outward?
+> - How does the health care info tech data break down
+> - Maybe do feature selection / automatically select feature — forward …
+> - Scikit-Learn has feature selection methods https://scikit-learn.org/stable/api/sklearn.feature_selection.html#module-sklearn.feature_selection
+> - Recursive elimination: Do some dimension reduction 
+> - Focus on narrowing down your questions and selecting variables 
+> - What is balanced data, and when is it considered an issue?
 - Todos: 
-> Do a simple (logistic) regression model that is easy to explain and analyze. 
-> Compare that to a more advanced ML model (whichever is appropriate)
-> Finish up with exploratory data analysis
+> - Do a simple (logistic) regression model that is easy to explain and analyze. 
+> - Compare that to a more advanced ML model (whichever is appropriate)
+> - Finish up with exploratory data analysis
 - Last notes:
-> Greg won’t be available to meet after May 31, 2024
-> Need to suggest meeting again in two days at a time that works for all members of the group.
+> - Greg won’t be available to meet after May 31, 2024
+> - Need to suggest meeting again in two days at a time that works for all members of the group.
 
 @Pankaz, please add anything else I forgot to note down.
