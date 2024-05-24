@@ -42,3 +42,15 @@ Model performance will be evaluated by creating a confusion matrix, assessing it
 ### Data cleaning
 
 
+
+
+## Preliminary modeling plan
+After conducting Exploratory Data Analysis (EDA) and identifying variables that could potentially explain whether someone has had cancer, we decided to explore the question: *What are good predictors of cancer?* Could it be demographic information, access to cancer information, internet usage, geographical region, medical conditions, or a combination of these factors?
+
+To answer this question, we will explore which features within our dataset are good predictors of cancer. We will use two methods for feature selection:
+
+*Embedded Methods*: These methods perform feature selection as part of the model training process. We will employ a Logistic Regression model with L1 regularization (Lasso) and Tree-based models like the Random Forest Classifier, which inherently provides feature importance scores (using model.feature_importances_).
+
+*Wrapper Methods*: These methods evaluate feature subsets based on model performance. We will use Sequential Feature Selection (either forward or backward selection) and Tree-based models in combination with Recursive Feature Elimination (RFE) from sklearn.feature_selection.
+
+After selecting the best features, we will apply other algorithms learned during this bootcamp, such as Gradient Boosting algorithms, K-Nearest Neighbors (KNN), Support Vector Machines (SVM), and Neural Networks, with hyperparameter tuning to build the best predictive model.
