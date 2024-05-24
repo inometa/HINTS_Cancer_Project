@@ -57,3 +57,35 @@ After describing the data we have and the Python explorations done, the meeting 
 > - Need to suggest meeting again in two days at a time that works for all members of the group.
 
 @Pankaz, please add anything else I forgot to note down.
+
+
+## May 23rd (Zoom meeting)
+- Ask question relative to a particular section and choose variables in that sections specifically.
+But we have to use cancer history section first.
+- Need to find main features in the dataset to get good question to explore [Greg]
+- Pick a few sections and focus on those: 
+- How often do people get cancer? What are people's outcomes when they get cancer? [Greg]
+0. What are predictors of cancer? (ML models to use: Logistic regression [Priti], Decision tree [Pankaj, Greg], ) **Outcome variables: M1**
+1.  When people get cancer, what were the features association with it? 
+2. Can we associate with some cause? What are the outcomes (recover or not)?
+3. Output: predicting whether someone has cancer or not? Other tools come along to make it mathematically accurate
+- Try feature selection algorithms to determine the important features (not fixed on a particular number of questions)
+
+### To do 
+- Use logistic regr. and decision tree to answer the cancer predictor question.
+- Create composite variable for the each category (eg creating an aggregated score for use of internet: phone, laptop, etc)
+- Pankaj has done some already
+- Get about 5-7 graphics to do the EDA writeup
+- Age, CENSREG, Use of internet,
+- Want to see some initial predictive model by next week [Greg]. Any.
+- By the time you are submitting EDA tomorrow, finalize the questions
+
+### Descriptive data
+- Use EDA to explore the viability of our questions (eg internet use asso. with cancer)
+- [Priti] Descriptive work
+- [Pankaj] Graphs
+- [Ikenna] Cleanup and proofread what is online (after 8:30pm EST)
+- [Masato] Add preliminary modeling plan
+
+**Next meeting: Monday 7pm EST**
+

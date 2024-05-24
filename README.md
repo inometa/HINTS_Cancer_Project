@@ -42,10 +42,3 @@ Model performance will be evaluated by creating a confusion matrix, assessing it
 ### Data cleaning
 
 
-## Action items 
-### Possible Questions and todos
-- Descriptive Stat.
-- Clean Data [Ikenna]
-- Finalize research question
-- Features selection techniques to perform 1) Binary Classification 2) Multi-Class Classification (maybe choosing a particular cancer of interest) [Pankaj]
-- Unsupervised learning techniques such as Kmeans etc... [Masato]
