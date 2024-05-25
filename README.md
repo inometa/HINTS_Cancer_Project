@@ -40,8 +40,7 @@ Model performance will be evaluated by creating a confusion matrix, assessing it
 
 ## Data analysis 
 ### Data cleaning
-The dataset containes information on 356 features, from 3630 individuals. The primary indicator variable of interest in occurence of cancer. Thirty one individuals did not respond to this question and hence the observation were deleted from the analysis. In the reamining dataset (n=3599) 464 individuals had cancer (12.89%), while 3135 did not have any history of cancer (87.11%). In our sample 60% were females, while 38.6% were females.Geographic distribution indicated 93.66% individuals were from non-appalachian region, 3% were from southern appalachia, 2.4% were from north appalachia, and 1.7% were from central appalachia.
-
+The dataset containes information on 356 features, from 3630 individuals. The primary indicator variable of interest in occurence of cancer. Thirty one individuals did not respond to this question and hence the observation were deleted from the analysis. In the reamining dataset (n=3599) 464 individuals had cancer (12.89%), while 3135 did not have any history of cancer (87.11%). In our sample 60% were females, while 38.6% were females.Geographic distribution indicated 93.66% individuals were from non-appalachian region, 3% were from southern appalachia, 2.4% were from north appalachia, and 1.7% were from central appalachia. Forty seven percentage of individuals in the sample had access to the internet.
 
 
 ## Preliminary modeling plan
