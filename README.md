@@ -1,4 +1,4 @@
-# Title- Explain the relationship between cancer occurrence and other factors based on machine learning algorithms.  
+# Title: Explain the relationship between cancer occurrence and other factors based on machine learning algorithms.  
 ## <u> Team Members </u>
 - Priti Singh
 - Pankaj Dholaniya
@@ -40,7 +40,7 @@ Model performance will be evaluated by creating a confusion matrix, assessing it
 
 ## Data analysis 
 ### Data cleaning
-The dataset containes information on 356 features, from 3630 individuals. The primary indicator variable of interest in occurence of cancer. Thirty one individuals did not respond to this question and hence the observation were deleted from the analysis. In the reamining dataset (n=3599) 464 individuals had cancer (12.89%), while 3135 did not have any history of cancer (87.11%). In our sample 60% were females, while 38.6% were females.Geographic distribution indicated 93.66% individuals were from non-appalachian region, 3% were from southern appalachia, 2.4% were from north appalachia, and 1.7% were from central appalachia. Forty seven percentage of individuals in the sample had access to the internet.
+The dataset contains information on 356 features from 3630 individuals. The primary indicator variable of interest is the occurrence of cancer. Thirty-one individuals did not respond to this question, so the observations were deleted from the analysis. In the reamining dataset (n=3599) 464 individuals had cancer (12.89%), while 3135 did not have any history of cancer (87.11%). In our sample, 60% were females, while 38.6% were females. Geographic distribution indicated 93.66% of individuals were from the non-Appalachian regions, 3% were from southern Appalachia, 2.4% were from north Appalachia, and 1.7% were from central Appalachia. Forty-seven percent of individuals in the sample had access to the Internet.
 
 
 ## Preliminary modeling plan
@@ -52,4 +52,4 @@ To answer this question, we will explore which features within our dataset are g
 
 *Wrapper Methods*: These methods evaluate feature subsets based on model performance. We will use Sequential Feature Selection (either forward or backward selection) and Tree-based models in combination with Recursive Feature Elimination (RFE) from sklearn.feature_selection.
 
-After selecting the best features, we will apply other algorithms learned during this bootcamp, such as Gradient Boosting algorithms, K-Nearest Neighbors (KNN), Support Vector Machines (SVM), and Neural Networks, with hyperparameter tuning to build the best predictive model.
+After selecting the best features, we will apply other algorithms learned during this boot camp, such as Gradient Boosting algorithms, K-Nearest Neighbors (KNN), Support Vector Machines (SVM), and Neural Networks, with hyperparameter tuning to build the best predictive model.
