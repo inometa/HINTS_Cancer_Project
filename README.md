@@ -24,6 +24,7 @@ We will use survey data collected during the second cycle of HINTS 4 from Octobe
   - medical history
 2. Which fetaures best predict the outcome of cancer based on classificstion models ?
 3. What is the models performace ?
+
 ~~2. How does exposure to cancer-related health information online influence health behaviors, such as diet and exercise
 3. How does access to health information technology impact the frequency of cancer screenings? Particularly, how does access to health information affect the frequency of breast cancer screening among patients aged 40 to 75?~~
 
