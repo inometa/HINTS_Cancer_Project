@@ -1,21 +1,47 @@
-MIT License
+BSD 2-Clause License
 
-Copyright (c) 2024 Priti Singh, Pankaj Dholaniya, Ikenna Nometa, Gbocho Masato Terasaki
+Copyright (c) 2024, Priti Singh, Pankaj Dholaniya, Ikenna Nometa, Gbocho Masato Terasaki
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. HINTS data used in this work can be reused subject to HINTS Data Terms of Use outlined below.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+## HINTS Data Terms of Use
+
+It is of utmost importance to ensure the confidentiality of survey participants. Every effort has been made to exclude identifying information on individual respondents from the computer files. Some demographic information such as sex, race, etc., has been included for research purposes. NCI expects that users of the data set will adhere to the strictest standards of ethical conduct for the analysis and reporting of nationally collected survey data. It is mandatory that all research results be presented/published in a manner that protects the integrity of the data and ensures the confidentiality of participants.
+
+In order for the Health Information National Trends Survey (HINTS) to provide a public-use or another version of data to you, it is necessary that you agree to the following provisions.
+
+- You will not present/publish data in which an individual can be identified. Publication of small cell sizes should be avoided.
+- You will not attempt to link nor permit others to link the data with individually identified records in another database.
+- You will not attempt to learn the identity of any person whose data are contained in the supplied file(s).
+- If the identity of any person is discovered inadvertently, then the following should be done;
+   - no use will be made of this knowledge,
+   - the HINTS Program staff will be notified of the incident,
+   - no one else will be informed of the discovered identity.
+- You will not release nor permit others to release the data in full or in part to any person except with the written approval of the HINTS Program staff.
+- If accessing the data from a centralized location on a time sharing computer system or LAN, you will not share your logon name and password with any other individuals. You will also not allow any other individuals to use your computer account after you have logged on with your logon name and password.
+- For all software provided by the HINTS Program, you will not copy, distribute, reverse engineer, profit from its sale or use, or incorporate it in any other software system.
+- The source of information should be cited in all publications. The appropriate citation is associated with the data file used. Please see Suggested Citations in the Download HINTS 
+- Data section of this Web site, or the Readme.txt associated with the ASCII text version of the HINTS data.
+- Analyses of large HINTS domains usually produce reliable estimates, but analyses of small domains may yield unreliable estimates, as indicated by their large variances. The analyst should pay particular attention to the standard error and coefficient of variation (relative standard error) for estimates of means, proportions, and totals, and the analyst should report these when writing up results. It is important that the analyst realizes that small sample sizes for particular analyses will tend to result in unstable estimates.
+
