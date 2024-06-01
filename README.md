@@ -22,8 +22,8 @@ We will use survey data collected during the second cycle of HINTS 4 from Octobe
   - demographics including age, gender, income and geography
   - the utilization of health information technology, including the Internet and tablets, for cancer-related education and
   - medical history
-2. How does exposure to cancer-related health information online influence health behaviors, such as diet and exercise
-3. How does access to health information technology impact the frequency of cancer screenings? Particularly, how does access to health information affect the frequency of breast cancer screening among patients aged 40 to 75?
+~2. How does exposure to cancer-related health information online influence health behaviors, such as diet and exercise
+3. How does access to health information technology impact the frequency of cancer screenings? Particularly, how does access to health information affect the frequency of breast cancer screening among patients aged 40 to 75?)~
 
 ## Potential Stakeholders
 Individuals suffering from cancer and their families, as well as cancer-free individuals. Results from the study can guide individuals suffering from cancer to better manage their health, as well as cancer-free individuals to engage in their health management by the use of health information technology. The results will also guide physicians and other healthcare providers.
