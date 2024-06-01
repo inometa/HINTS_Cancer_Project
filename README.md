@@ -11,26 +11,19 @@ HINTS regularly collects nationally representative data about the American publi
 
 # Methodology- Tentative
 
-In this study, we wish to use machine learning ~~-based classification~~ models/algorithms to study cancer occurrence in the US population. We are still finalizing the feature/independent variables.
+In this study, we wish to use machine learning ~~-based classification~~ models/algorithms to study cancer occurrence in the US population. We have narrowed down to 21 features out of 370 features that we wish to study and think will provide meaningful associations to occurence of cancer.
+We will select the top 15 features from this list based on feature selection and feature ranking. We will compare the performance of our selected variables to multiple sets of randomly selected 15 variables for performamce. After the list of predictors is finalized we will supervised learning model to develop predictive modelling and examine its performance.
 
 # Dataset descriptives
 We will use survey data collected during the second cycle of HINTS 4 from October 2012 through January 2013. This includes responses collected from 3630 individuals living across multiple regions of the US. The sampling frame of addresses, provided by Marketing Systems Group (MSG), was grouped into three strata: 1) addresses in areas with high concentrations of minority population; 2) addresses in areas with low concentrations of minority population; 3) addresses located in counties comprising Central Appalachia regardless of minority population. For more details about the project, please visit-https://hints.cancer.gov.
 
 ## Problem description-Tentative 
-1. We wish to investigate the relationship between cancer incidence and two key factors: 
+1. We wish to investigate the relationship between cancer incidence and three key factors:
+  - demographics including age, gender, income and geography
   - the utilization of health information technology, including the Internet and tablets, for cancer-related education and
-  - geographical location.
+  - medical history
 2. How does exposure to cancer-related health information online influence health behaviors, such as diet and exercise
 3. How does access to health information technology impact the frequency of cancer screenings? Particularly, how does access to health information affect the frequency of breast cancer screening among patients aged 40 to 75?
-
-### What machine learning algorithms can help us answer the questions above?
-1.
-2.
-3.
-### What variables/features will be needed for each algorithm?
-1.
-2.
-3.
 
 ## Potential Stakeholders
 Individuals suffering from cancer and their families, as well as cancer-free individuals. Results from the study can guide individuals suffering from cancer to better manage their health, as well as cancer-free individuals to engage in their health management by the use of health information technology. The results will also guide physicians and other healthcare providers.
@@ -46,7 +39,8 @@ The dataset contains information on 356 features from 3630 individuals. The prim
 ## Preliminary modeling plan
 After conducting Exploratory Data Analysis (EDA) and identifying variables that could potentially explain whether someone has had cancer, we decided to explore the question: *What are good predictors of cancer?* Could it be demographic information, access to cancer information, internet usage, geographical region, medical conditions, or a combination of these factors?
 
-To answer this question, we will explore which features within our dataset are good predictors of cancer. We will use two methods for feature selection:
+To answer this question, we will use supervised machine learning methods 
+explore which features within our dataset are good predictors of cancer. We will use two methods for feature selection:
 
 *Embedded Methods*: These methods perform feature selection as part of the model training process. We will employ a Logistic Regression model with L1 regularization (Lasso) and Tree-based models like the Random Forest Classifier, which inherently provides feature importance scores (using model.feature_importances_).
 
