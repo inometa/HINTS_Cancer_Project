@@ -1,4 +1,4 @@
-# Title: Explain the relationship between cancer occurrence and other factors based on machine learning algorithms.  
+# Project title: Exploring the Relationship Between Cancer Occurrence and Contributing Factors in the US Using Machine Learning Algorithms.  
 ## <u> Team Members </u>
 - Priti Singh
 - Pankaj Dholaniya
