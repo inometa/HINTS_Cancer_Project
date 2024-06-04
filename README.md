@@ -47,3 +47,5 @@ to explore which features within our dataset are good predictors of cancer. We w
 *Wrapper Methods*: These methods evaluate feature subsets based on model performance. We will use Sequential Feature Selection (either forward or backward selection) and Tree-based models in combination with Recursive Feature Elimination (RFE) from sklearn.feature_selection.
 
 After selecting the best features, we will apply other algorithms learned during this boot camp, such as Gradient Boosting algorithms, K-Nearest Neighbors (KNN), Support Vector Machines (SVM), and Neural Networks, with hyperparameter tuning to build the best predictive model.
+
+![alt text](https://github.com/inometa/Hints_Cancer_Project/tree/main/Images/HintsLogo2.png?raw=true)
