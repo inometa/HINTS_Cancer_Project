@@ -47,3 +47,15 @@ to explore which features within our dataset are good predictors of cancer. We w
 *Wrapper Methods*: These methods evaluate feature subsets based on model performance. We will use Sequential Feature Selection (either forward or backward selection) and Tree-based models in combination with Recursive Feature Elimination (RFE) from sklearn.feature_selection.
 
 After selecting the best features, we will apply other algorithms learned during this boot camp, such as Gradient Boosting algorithms, K-Nearest Neighbors (KNN), Support Vector Machines (SVM), and Neural Networks, with hyperparameter tuning to build the best predictive model.
+
+## Future directions
+Some work we wish to do to improve the study include:
+-  Evaluation of model performance on new data from subsequent years from HINTS,
+-  Exploration of the effects of oversampling vs undersampling on the model accuracy and
+-  Development of an app that will automatically predict whether a person has had cancer based on the model we develop given input features.
+
+## Acknowledgements
+We wish to thank:
+1. Roman Holowinsky, Alec Cott, Steven Gubkin, and the entire Erdös Institute Summer-May-2024 team,
+2. Our project mentor, Greg Edwards, and
+3. NIH’s National Cancer Institute for making the HINTS data available for our use.
