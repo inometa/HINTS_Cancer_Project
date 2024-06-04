@@ -48,6 +48,17 @@ to explore which features within our dataset are good predictors of cancer. We w
 
 After selecting the best features, we will apply other algorithms learned during this boot camp, such as Gradient Boosting algorithms, K-Nearest Neighbors (KNN), Support Vector Machines (SVM), and Neural Networks, with hyperparameter tuning to build the best predictive model.
 
+
+## Model Selection
+Once the features are decided, we construct a Random Forest model. We choose Random Forest, primarily, for its capabilities of addressing overfitting, being easy to train, and having embedded functions like importances_features. 
+
+Then, we perform a hyperparameter tuning of the Random Forest, coupled with a cross-validation technique (K-fold), leading to construction more than 20000 trees. This only took 16minutes to fit all models. 
+
+After getting the best parameters leading to the best cross-validation accuracy, we evaluate the model on the Test set:
+
+We obtain an accuracy of 99.46% as well as a False Negative rate of 0.6%
+
+
 ## Future directions
 Some work we wish to do to improve the study include:
 -  Evaluation of model performance on new data from subsequent years from HINTS,
