@@ -60,4 +60,4 @@ We wish to thank:
 2. Our project mentor, Greg Edwards, and
 3. NIH’s National Cancer Institute for making the HINTS data available for our use.
 
-![alt text](https://github.com/inometa/Hints_Cancer_Project/tree/main/Images/HintsLogo2.png?raw=true)
+![hints logo](https://github.com/inometa/Hints_Cancer_Project/blob/main/Images/HintsLogo2.png?raw=true)
