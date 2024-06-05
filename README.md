@@ -29,7 +29,7 @@ We will use survey data collected during the second cycle of HINTS 4 from Octobe
 Individuals suffering from cancer and their families, as well as cancer-free individuals. Results from the study can guide individuals suffering from cancer to better manage their health, as well as cancer-free individuals to engage in their health management by the use of health information technology. The results will also guide physicians and other healthcare providers.
 
 ## Key performance indicators 
-Model performance will be evaluated by creating a confusion matrix, assessing its accuracy, sensitivity, and specificity, and calculating the area under the received operating characteristic curve at various thresholds.
+Model performance will be evaluated by creating a confusion matrix, assessing its accuracy, recall and precision.
 
 ## Data analysis 
 ### Data cleaning
