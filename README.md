@@ -43,15 +43,17 @@ After conducting Exploratory Data Analysis (EDA) and identifying variables that 
 To identify the most important features for predicting our target variable by leveraging multiple machine learning models and Recursive Feature Elimination (RFE).
 We chose 4 models (Logistic Regression (base model), LinearSVC, Decision Tree, ‘very shallow’ Random Forest), and for each model, we use RFE to recursively eliminate the least important features.
 For each model, we apply Recursive Feature Elimination (RFE) to systematically remove the least important features. We obtained the feature rankings from each model, aggregated them, and then calculated the average ranking for each feature across all models.
-Finally, we selected the top 15 features based on these average rankings.
-![feature ranking](https://github.com/inometa/Hints_Cancer_Project/blob/main/Images/featureranking.png?raw=true)
+Finally, we selected the top 15 features based on these average rankings.</br>
+<img src="https://github.com/inometa/Hints_Cancer_Project/blob/main/Images/featureranking.png" width="70%"/>
 
 ## Model Selection
 Once the features are decided, we construct a Random Forest model. While there exist tree-ensemble models such as Gradient Boosting Trees which generally excel in predictive accuracy, particularly in datasets with imbalance classes, we choose to build our pipeline around Random Forest model. We choose Random Forest, primarily, for its capabilities of addressing overfitting, being easy to train, and having embedded functions like importances_features. 
-
 Then, we perform a hyperparameter tuning of the Random Forest, coupled with a cross-validation technique (K-fold), leading to construction more than 20000 trees. This only took 16minutes to fit all models. 
+<img src="https://github.com/inometa/Hints_Cancer_Project/blob/main/Images/parameter.png" width="70%"/>
+
 After getting the best parameters leading to the best cross-validation accuracy, we evaluate the model on the Test set:
 We obtain an accuracy of 99.46% as well as a False Negative rate of 0.6%. 
+<img src="https://github.com/inometa/Hints_Cancer_Project/blob/main/Images/cf.png" width="70%"/>
 
 
 ## Future directions
