@@ -9,7 +9,7 @@
 In this project, we wish to apply the learnings from the boot camp to study real data collected by the National Cancer Institute, called the Health Information National Trends Survey or HINTS.
 HINTS regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer- and health-related information. HINTS data are used to monitor changes in the rapidly evolving fields of health communication and health information technology and to create more effective health communication strategies across different populations. Survey researchers use the data to understand how adults 18 years and older use different communication channels, including the Internet, to obtain vital health information for themselves and their loved ones. 
 
-# Methodology- 
+# Methodology
 
 In this study, we wish to use machine learning models/algorithms to study cancer occurrence in the US population. We have narrowed down to 21 features out of 370 features that we wish to study and think will provide meaningful associations to the occurrence of cancer.
 We will select the top 15 features from this list based on feature selection and feature ranking. We will compare the performance of our selected variables to multiple sets of randomly selected 15 variables for performance. After the list of predictors is finalized, we will use supervised learning models to develop predictive modeling and examine its performance.
