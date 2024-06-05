@@ -39,15 +39,12 @@ The dataset contains information on 356 features from 3630 individuals. The prim
 ## Preliminary modeling plan
 After conducting Exploratory Data Analysis (EDA) and identifying variables that could potentially explain whether someone has had cancer, we decided to explore the question: *What are good predictors of cancer?* Could it be demographic information, access to cancer information, internet usage, geographical region, medical conditions, or a combination of these factors?
 
-To answer this question, we will use supervised machine learning methods 
-to explore which features within our dataset are good predictors of cancer. We will use two methods for feature selection:
-
-*Embedded Methods*: These methods perform feature selection as part of the model training process. We will employ a Logistic Regression model with L1 regularization (Lasso) and Tree-based models like the Random Forest Classifier, which inherently provides feature importance scores (using model.feature_importances_).
-
-*Wrapper Methods*: These methods evaluate feature subsets based on model performance. We will use Sequential Feature Selection (either forward or backward selection) and Tree-based models in combination with Recursive Feature Elimination (RFE) from sklearn.feature_selection.
-
-After selecting the best features, we will apply other algorithms learned during this boot camp, such as Gradient Boosting algorithms, K-Nearest Neighbors (KNN), Support Vector Machines (SVM), and Neural Networks, with hyperparameter tuning to build the best predictive model.
-
+### Feature Ranking
+To identify the most important features for predicting our target variable by leveraging multiple machine learning models and Recursive Feature Elimination (RFE).
+We chose 4 models (Logistic Regression (base model), LinearSVC, Decision Tree, ‘very shallow’ Random Forest), and for each model, we use RFE to recursively eliminate the least important features.
+For each model, we apply Recursive Feature Elimination (RFE) to systematically remove the least important features. We obtained the feature rankings from each model, aggregated them, and then calculated the average ranking for each feature across all models.
+Finally, we selected the top 15 features based on these average rankings.
+![feature ranking](https://github.com/inometa/Hints_Cancer_Project/blob/main/Images/featureranking.png?raw=true)
 
 ## Model Selection
 Once the features are decided, we construct a Random Forest model. While there exist tree-ensemble models such as Gradient Boosting Trees which generally excel in predictive accuracy, particularly in datasets with imbalance classes, we choose to build our pipeline around Random Forest model. We choose Random Forest, primarily, for its capabilities of addressing overfitting, being easy to train, and having embedded functions like importances_features. 
