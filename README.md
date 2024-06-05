@@ -9,7 +9,7 @@
 In this project, we wish to apply the learnings from the boot camp to study real data collected by the National Cancer Institute, called the Health Information National Trends Survey or HINTS.
 HINTS regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer- and health-related information. HINTS data are used to monitor changes in the rapidly evolving fields of health communication and health information technology and to create more effective health communication strategies across different populations. Survey researchers use the data to understand how adults 18 years and older use different communication channels, including the Internet, to obtain vital health information for themselves and their loved ones. 
 
-# Methodology- Tentative
+# Methodology- 
 
 In this study, we wish to use machine learning models/algorithms to study cancer occurrence in the US population. We have narrowed down to 21 features out of 370 features that we wish to study and think will provide meaningful associations to the occurrence of cancer.
 We will select the top 15 features from this list based on feature selection and feature ranking. We will compare the performance of our selected variables to multiple sets of randomly selected 15 variables for performance. After the list of predictors is finalized, we will use supervised learning models to develop predictive modeling and examine its performance.
@@ -17,7 +17,7 @@ We will select the top 15 features from this list based on feature selection and
 # Dataset descriptives
 We will use survey data collected during the second cycle of HINTS 4 from October 2012 through January 2013. This includes responses collected from 3630 individuals living across multiple regions of the US. The sampling frame of addresses, provided by Marketing Systems Group (MSG), was grouped into three strata: 1) addresses in areas with high concentrations of minority population; 2) addresses in areas with low concentrations of minority population; 3) addresses located in counties comprising Central Appalachia regardless of minority population. For more details about the project, please visit-https://hints.cancer.gov.
 
-## Problem description-Tentative 
+## Problem description
 1. We wish to investigate the relationship between cancer incidence and three key factors:
   - demographics including age, gender, income, and geography
   - the utilization of health information technology, including the Internet and tablets, for cancer-related education and
@@ -50,13 +50,11 @@ After selecting the best features, we will apply other algorithms learned during
 
 
 ## Model Selection
-Once the features are decided, we construct a Random Forest model. We choose Random Forest, primarily, for its capabilities of addressing overfitting, being easy to train, and having embedded functions like importances_features. 
+Once the features are decided, we construct a Random Forest model. While there exist tree-ensemble models such as Gradient Boosting Trees which generally excel in predictive accuracy, particularly in datasets with imbalance classes, we choose to build our pipeline around Random Forest model. We choose Random Forest, primarily, for its capabilities of addressing overfitting, being easy to train, and having embedded functions like importances_features. 
 
 Then, we perform a hyperparameter tuning of the Random Forest, coupled with a cross-validation technique (K-fold), leading to construction more than 20000 trees. This only took 16minutes to fit all models. 
-
 After getting the best parameters leading to the best cross-validation accuracy, we evaluate the model on the Test set:
-
-We obtain an accuracy of 99.46% as well as a False Negative rate of 0.6%
+We obtain an accuracy of 99.46% as well as a False Negative rate of 0.6%. 
 
 
 ## Future directions
